@@ -13,12 +13,12 @@ $(function() {
   $(document).on({
     mouseenter: function(){
       var rating = $(this).closest('.InputfieldContent').find('input').val();
-      if (rating !== undefined) $(this).find('.star').removeClass('active');
+      if (rating !== undefined) $(this).find('span.star').removeClass('active');
     },
     mouseleave: function(){
       var rating = $(this).closest('.InputfieldContent').find('input').val();
-      if (rating !== undefined) $(this).find('.star[data-rating="' + rating + '"]').addClass('active');
+      if (rating !== undefined) $(this).find('span.star[data-rating="' + rating + '"]').addClass('active');
     }
-  }, 'span.rating');
+  }, 'div.rating');
 
 });
