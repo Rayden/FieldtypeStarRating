@@ -23,7 +23,7 @@ class InputfieldStarRating extends Inputfield {
     return array(
       'title' => __('Star Rating Integer', __FILE__), // Module Title
       'summary' => __('Star Rating Integer', __FILE__), // Module Summary
-      'version' => 100,
+      'version' => 101,
     );
   }
 
