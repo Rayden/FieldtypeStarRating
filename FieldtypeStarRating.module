@@ -22,7 +22,7 @@ class FieldtypeStarRating extends Fieldtype {
   public static function getModuleInfo() {
     return array(
       'title' => 'Star Rating Integer',
-      'version' => 100,
+      'version' => 101,
       'summary' => 'Field that stores ratings as integer',
       'installs' => array('InputfieldStarRating')
     );
